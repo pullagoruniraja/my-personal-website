@@ -1,0 +1,70 @@
+.container,
+.row {
+  width: 100%;
+}
+#contact-form {
+  width: 100%;
+}
+.card-group {
+  display: flex;
+}
+
+.container-section{
+    height: 200px;
+}
+
+.navbar{
+    background-color: #E2DCC8;
+}
+
+.btn-primary{
+    background-color: #0F3D3E;
+}
+
+.btn-secondary{
+    background-color: #EAE3D2;
+}
+
+.background-dark{
+    background-color: #F1F1F1;
+}
+.name-large{
+    color: #0F3D3E;
+}
+.row-section{
+    height: 300px;
+}
+.row-section1, .row-section3{
+    background-color: #0F3D3E;
+    color: white;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

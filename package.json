@@ -1,0 +1,15 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A personal professional website that highlights the author and the author's professional experience.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "author": "Niraja Pullagoru",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1"
+  }
+}
