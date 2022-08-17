@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A personal professional website that highlights the author and the author's professional experience.",
   "main": "src/index.html",
+  "homepage": "https://pullagoruniraja.github.io/my-personal-website/",
   "scripts": {
-    "test": "exit 1"
+    "view:cov": "cd coverage/lcov-report && src/index.html"
   },
   "author": "Niraja Pullagoru",
   "license": "ISC",
