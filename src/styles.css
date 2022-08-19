@@ -39,6 +39,11 @@
     color: white;
 }
 
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;

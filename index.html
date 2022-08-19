@@ -17,15 +17,13 @@
 <body class="d-flex flex-column">
     <!-- Navbar -->
     <header class="mb-auto">
-
-
-        <navbar class="navbar navbar-expand-md navbar-light fixed-top justify-content-center">
+        <navbar class="navbar navbar-expand-md navbar-light fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id=navbarNav>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav text-center">
                     <li class="nav-item">
                         <a href="#about" class="nav-link active">About</a>
                     </li>
@@ -42,6 +40,7 @@
             </div>
         </navbar>
     </header>
+
     <!-- Main content -->
     <main class="container">
 
@@ -51,7 +50,6 @@
                 <h1 class="display-4 text-right align-middle pt-5 name-large">Niraja Pullagoru</h1>
             </div>
         </div>
-
         <div class="row mt-3 mb-5 " id="welcome">
             <div class="container">
                 <h1 class="pt-3">Welcome!</h1>
@@ -84,7 +82,7 @@
                 </p>
             </div>
             <div class="col-md-5  background-dark">
-                <div class="row">
+                <div class="row mx-2">
                     <img class="img-fluid" src="src/images/profile-picture.png" alt="Profile Picture">
                 </div>
             </div>
@@ -94,9 +92,9 @@
         <!-- Work -->
         <div class="row my-5 " id="experience">
             <h1 class="mt-5 mb-3">Work</h1>
-            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+            <div id="carouselControls" class="carousel carousel-dark slide" data-ride="carousel">
                 <div class="carousel-inner  background-dark">
-                    <div class="carousel-item active my-5" data-interval="10000">
+                    <div class="carousel-item active my-5" data-interval="5000">
                         <img class="d-block w-30 mx-auto img-fluid" src="src/images/capg-logo.jpg" alt="First slide">
                         <h5 class="card-title text-center">Associate Consultant</h5>
                         <p class="card-text text-center w-50 mx-auto lead">I built a framework to automate an
@@ -136,12 +134,12 @@
                         </p>
                     </div>
                     <button class="carousel-control-prev" type="button" data-slide="prev"
-                        data-target="#carouselExampleControls">
+                        data-target="#carouselControls">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </button>
                     <button class="carousel-control-next" role="button" type="button" data-slide="next"
-                        data-target="#carouselExampleControls">
+                        data-target="#carouselControls">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </button>
@@ -194,12 +192,8 @@
 
         <!-- Projects -->
         <div class="row my-5" id="projects">
-
             <h1 class="mt-5 mb-3">Projects</h1>
             <div class="container px-5 mb-5">
-
-
-
                 <div class="row">
                     <div class="row row-section row-section1">
                         <div class="col">
@@ -251,7 +245,7 @@
             </div>
 
             <!-- Contact -->
-            <div class="row my-5" id="contact">
+            <div class="row my-5 mx-2" id="contact">
                 <form id="contact-form" class=" mt-5 mb-3">
                     <h1 class="mt-5 mb-3">Contact Me</h1>
                     <p class="lead">Have something to discuss about my previous work? Database queries? Just want to say
@@ -273,7 +267,7 @@
                     </div>
                     <div class="form-row my-1">
                         <button class="btn btn-primary mr-2" type="submit" data-toggle="modal"
-                            data-target="#exampleModalCenter">
+                            data-target="#exampleModalCenter" onclick="handleSubmit()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-envelope-check" viewBox="0 0 16 16">
                                 <path
@@ -298,12 +292,12 @@
                                     </div>
 
                                     <div class="modal-body" id="thank-you">
-                                        <p class="display-contact-name"></p>
+                                        <p class="display display-contact-name"></p>
                                         Thank you for taking time to get in touch with me. I will surely reach back
                                         within
-                                        3-5 business days at - <p class="display-contact-email"></p>
+                                        3-5 business days at - <p class="display display-contact-email"></p>
                                     </div>
-                                    
+
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-outline-dark"
                                             data-dismiss="modal">Close</button>
