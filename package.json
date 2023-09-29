@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "A personal professional website that highlights the author and the author's professional experience.",
-  "main": "src/index.html",
+  "main": "index.html",
   "homepage": "https://pullagoruniraja.github.io/my-personal-website/",
   "scripts": {
     "view:cov": "cd coverage/lcov-report && src/index.html"
